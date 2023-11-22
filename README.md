@@ -27,4 +27,5 @@ This React eCommerce frontend is designed to provide a user-friendly interface f
 ## Technologies Used
 - React Js
 - Bootstrap
+- HTML
 - CSS
