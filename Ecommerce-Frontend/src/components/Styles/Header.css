@@ -1,0 +1,77 @@
+/*  CSS styles for header component*/
+img{
+    display: flex;
+    justify-self: flex-start;
+    padding-left: 0;
+    width: 35%;
+    height:20%;
+}
+
+/*serach bar styles*/
+#searchbar{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    height: 50%;
+    justify-content: left;
+    text-align: left;
+    border-radius: 0 0 0 12px;
+    width: 26%;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* search button styles*/
+#searchbtn{
+    margin-left: 0;
+    border: none;
+
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 61%;
+    height: 50%;
+    width: 90px;
+    background-color: rgb(225, 247, 77);
+    border-radius: 0 12px 0 0;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*serach button hover*/
+#searchbtn:hover{
+    background-color: rgb(225, 247, 77);
+}
+
+#searchbtn:active{
+    border: none;
+}
+/*login button styles*/
+#log{
+    top: 20%;
+    position: absolute;
+    right: 3.5rem;
+    background-color: rgb(225, 247, 77);;
+}
+#log:hover{
+    background-color: rgb(225, 247, 77);;
+}
+#log:active{
+    border: none;
+}
+/*cart styles*/
+#cart{
+    color: rgb(225, 247, 77);;
+    font-size: 1.5em;
+    position: absolute;
+    top: 20%;
+    right: 1rem;
+}
+
+#secnav{
+    background-color: rgba(235, 235, 235, 0.7);
+}
+
+#secnav > li > a{
+    color: black;
+}

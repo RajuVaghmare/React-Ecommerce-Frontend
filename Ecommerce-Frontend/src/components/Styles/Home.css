@@ -1,0 +1,68 @@
+/* CSS Styling for  HomeCover.js and Slider.js
+
+
+/*logo style*/
+#logohomepage{
+    width: 20rem;
+    margin-top:5%;
+    position: relative;
+    justify-content: center;
+
+}
+#brandmoto{
+    position: relative;
+    color: white;
+    top: 38%;
+    margin-bottom: 5%;
+    font-size:100%;
+}
+#carousel-container{
+    margin-top: 15%;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.127);
+}
+
+
+/*card styles*/
+.card{
+    margin-bottom: 8%;
+}
+
+.card-img-top{
+    height: 15rem;
+}
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.6);   
+    border-radius:2PX;}
+   
+
+  
+      
+      .background-image {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    
+      .Slider{
+        background-color:whitesmoke;
+      }
+      .featuredProducts{
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      
+      
+  
